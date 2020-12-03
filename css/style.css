@@ -367,7 +367,7 @@ input:required {
 .section-heading {
   position: relative;
   z-index: 1;
-  margin-bottom: 50px; }
+  margin-bottom: 20px; }
   .section-heading h2 {
     font-size: 36px;
     text-transform: capitalize;
@@ -543,7 +543,10 @@ input:required {
       text-transform: capitalize;
       color: #ffffff;
       font-weight: 500;
-      padding: 0 20px; }
+      padding: 0 10px; }
+      .classy-nav-container .classy-navbar .classynav ul li a i {
+        font-size: 20px;
+      }
       .classy-nav-container .classy-navbar .classynav ul li a:hover, .classy-nav-container .classy-navbar .classynav ul li a:focus {
         color: #fc6060; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -693,6 +696,7 @@ input:required {
   @media only screen and (max-width: 767px) {
     .single-welcome-slide {
       height: 600px; } }
+      
   .single-welcome-slide .welcome-text {
     position: relative;
     z-index: 1; }
@@ -707,10 +711,27 @@ input:required {
       @media only screen and (max-width: 767px) {
         .single-welcome-slide .welcome-text h2 {
           font-size: 42px; } }
+
     .single-welcome-slide .welcome-text p {
       color: #ffffff;
       margin-bottom: 50px;
       display: block; }
+      @media only screen and (min-width: 767px) and (max-width: 850px) {
+        .single-welcome-slide .welcome-text p {
+          font-size: 15px;
+        }
+        .single-welcome-slide .welcome-text h2 {
+          font-size: 40px; } 
+      }
+
+      @media only screen and (min-width: 250px) and (max-width: 480px) {
+        .single-welcome-slide .welcome-text h2 {
+          font-size: 30px; } 
+        .single-welcome-slide .welcome-text p {
+          font-size: 15px;
+        }
+      }
+
     .single-welcome-slide .welcome-text .hero-mail-contact {
       color: #ffffff;
       font-style: italic;
@@ -720,7 +741,7 @@ input:required {
 
 /* :: 9.0 Footer CSS */
 .footer-content {
-  padding: 20px 0; }
+  padding: 5px 0; }
   .footer-content .copywrite-text {
     position: relative;
     z-index: 1; }
@@ -733,6 +754,9 @@ input:required {
       .footer-content .copywrite-text p a {
         color: #fc6060;
         font-weight: 400; }
+        .footer-content .copywrite-text p a:hover {
+          color: #861000;
+          font-weight: 400; }
         @media only screen and (max-width: 767px) {
           .footer-content .copywrite-text p a {
             font-size: 12px; } }
@@ -941,10 +965,10 @@ input:required {
     font-size: 14px;
     margin-bottom: 0; }
   .why-choose-us-content:hover, .why-choose-us-content:focus {
-    background-color: #ff8585; }
+    background-color: #ff8585c7; }
     .why-choose-us-content:hover .chosse-us-icon, .why-choose-us-content:focus .chosse-us-icon {
       background-color: #ffffff;
-      color: #fc6060;
+      color: #fc6060b0;
       box-shadow: 0 5px 15px 2px rgba(255, 255, 255, 0.15); }
     .why-choose-us-content:hover h4,
     .why-choose-us-content:hover p, .why-choose-us-content:focus h4,
@@ -1304,3 +1328,41 @@ input:required {
 .footer-img-logo{
   width: 90px;
 }
+
+.services-area{
+  background:-webkit-linear-gradient(#ff9696d7, #ffe89ed8);
+}
+
+.bg-follow{
+  background:-webkit-linear-gradient(#ff9696be, #ffe89ec0);
+}
+
+
+.heart-icon:hover{
+  color: #da2121;
+}
+
+.margin-box-text{
+  margin-left: 0px;
+}
+
+@media only screen and (min-width: 1201px) {
+  .margin-box-text{
+    margin-left: 50px;
+  }
+  }
+
+@media only screen and (min-width: 1201px) and (max-width: 1301px) {
+  .margin-box-text{
+    margin-left: 120px;
+  }
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1140px) {
+    .margin-box-text{
+      margin-left: 150px;
+    }
+    }
+
+
+  

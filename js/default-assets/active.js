@@ -196,7 +196,7 @@
     if ($.fn.scrollUp) {
         alime_window.scrollUp({
             scrollSpeed: 1000,
-            scrollText: '<i class="arrow_carrot-up"</i>'
+            scrollText: '<i class="fa fa-arrow-up"</i>'
         });
     }
 

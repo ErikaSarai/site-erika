@@ -37,7 +37,10 @@ Last Update: Feb 22, 2019
 @import url(default-assets/classy-nav.css);
 @import url(owl.carousel.min.css);
 @import url(magnific-popup.css);
-@import url(font-awesome.min.css);
+@import url(fontawesome/css/fontawesome.min.css);
+@import url(fontawesome/css/regular.min.css);
+@import url(fontawesome/css/solid.min.css);
+@import url(fontawesome/css/brands.min.css);
 @import url(default-assets/themify-icons.css);
 @import url(icon.css);
 /* :: 01.0 Reboot CSS */
@@ -145,9 +148,9 @@ img.mfp-img {
   -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
   box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15); }
 
-button.mfp-close,
+/* button.mfp-close,
 button.mfp-arrow {
-  background: #fc6060; }
+  background: #fc6060; } */
 
 .mfp-bottom-bar {
   display: none !important; }
@@ -708,23 +711,32 @@ input:required {
       background: -webkit-linear-gradient(#ff9696, #ffe89e);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
-      @media only screen and (max-width: 767px) {
-        .single-welcome-slide .welcome-text h2 {
-          font-size: 42px; } }
 
     .single-welcome-slide .welcome-text p {
       color: #ffffff;
-      margin-bottom: 50px;
+      margin-bottom: 10px;
+      font-size: 35px;
+      font-weight: bold;
+      padding-top: 20px;
       display: block; }
-      @media only screen and (min-width: 767px) and (max-width: 850px) {
+
+      @media only screen and (min-width: 800px) and (max-width: 992px) {
+        .single-welcome-slide .welcome-text p {
+          font-size: 18px;
+        }
+        .single-welcome-slide .welcome-text h2 {
+          font-size: 60px; } 
+      }
+
+      @media only screen and (min-width: 600px) and (max-width: 800px) {
         .single-welcome-slide .welcome-text p {
           font-size: 15px;
         }
         .single-welcome-slide .welcome-text h2 {
-          font-size: 40px; } 
+          font-size: 50px; } 
       }
 
-      @media only screen and (min-width: 250px) and (max-width: 480px) {
+      @media only screen and (min-width: 400px) and (max-width: 600px) {
         .single-welcome-slide .welcome-text h2 {
           font-size: 30px; } 
         .single-welcome-slide .welcome-text p {
@@ -732,12 +744,32 @@ input:required {
         }
       }
 
+      @media only screen and (min-width: 200px) and (max-width: 400px) {
+        .single-welcome-slide .welcome-text h2 {
+          font-size: 25px; } 
+        .single-welcome-slide .welcome-text p {
+          font-size: 12px;
+        }
+        .single-welcome-slide .welcome-text .hero-mail-contact {
+          font-size: 13px;
+         }
+      }
+
     .single-welcome-slide .welcome-text .hero-mail-contact {
       color: #ffffff;
       font-style: italic;
+      font-size: 20px;
       text-decoration: underline; }
       .single-welcome-slide .welcome-text .hero-mail-contact:hover, .single-welcome-slide .welcome-text .hero-mail-contact:focus {
-        color: #fc6060; }
+        color: #f85353; }
+
+      .text-about-us{
+        text-align: justify;
+      }
+
+      .txt-site:hover{
+        color: #fc6060; 
+      }
 
 /* :: 9.0 Footer CSS */
 .footer-content {
@@ -748,31 +780,32 @@ input:required {
     .footer-content .copywrite-text p {
       margin-bottom: 0;
       color: #252525; }
-      @media only screen and (max-width: 767px) {
-        .footer-content .copywrite-text p {
-          font-size: 12px; } }
+
       .footer-content .copywrite-text p a {
         color: #fc6060;
         font-weight: 400; }
         .footer-content .copywrite-text p a:hover {
           color: #861000;
           font-weight: 400; }
-        @media only screen and (max-width: 767px) {
-          .footer-content .copywrite-text p a {
-            font-size: 12px; } }
+
   @media only screen and (max-width: 767px) {
     .footer-content .footer-logo a img {
-      max-width: 50px; } }
+      max-width: 50px; } 
+
+      .footer-content .copywrite-text p {
+        font-size: 13px;
+       }
+    
+    }
+
   .footer-content .social-info a {
     color: #252525;
-    font-size: 25px;
+    font-size: 40px;
     margin-right: 20px; }
+
     .footer-content .social-info a:last-child {
       margin-right: 0; }
-    @media only screen and (max-width: 767px) {
-      .footer-content .social-info a {
-        margin-right: 5px;
-        font-size: 12px; } }
+
     .footer-content .social-info a:hover, .footer-content .social-info a:focus {
       color: #fc6060; }
 
@@ -1346,11 +1379,12 @@ input:required {
   margin-left: 0px;
 }
 
-@media only screen and (min-width: 1201px) {
+/* @media only screen and (min-width: 1301px) and (max-width: 1450px) {
   .margin-box-text{
-    margin-left: 50px;
+    margin-left: 70px;
   }
-  }
+}
+
 
 @media only screen and (min-width: 1201px) and (max-width: 1301px) {
   .margin-box-text{
@@ -1358,11 +1392,87 @@ input:required {
   }
   }
 
-  @media only screen and (min-width: 992px) and (max-width: 1140px) {
+  @media only screen and (min-width: 1139px) and (max-width: 1200px) {
     .margin-box-text{
       margin-left: 150px;
     }
     }
 
+  @media only screen and (min-width: 992px) and (max-width: 1140px) {
+    .margin-box-text{
+      margin-left: 150px;
+    }
+  }
 
-  
+  @media only screen and (min-width: 800px) and (max-width: 930px) {
+    .margin-box-text{
+      margin-left: 50px;
+    }
+  }
+
+  @media only screen and (min-width: 767px) and (max-width: 800px) {
+    .margin-box-text{
+      margin-left: 65px;
+    }
+  }
+
+  @media only screen and (min-width: 550px) and (max-width: 645px) {
+    .margin-box-text{
+      margin-left: 50px;
+    }
+  }
+
+  @media only screen and (min-width: 400px) and (max-width: 550px) {
+    .margin-box-text{
+      margin-left: 50px;
+    }
+  } */
+
+  @media only screen and (min-width: 300px) and (max-width: 550px) {
+    .margin-box-text{
+      margin-left: 40px;
+    }
+  }
+
+  @media only screen and (min-width: 200px) {
+    .margin-box-text{
+      margin-left: 10px;
+    }
+  }
+
+
+  .icon-heart-box{
+    color: #ff5353;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .icon-heart-box:hover{
+    color: #ac1212;
+    cursor: pointer;
+  }
+
+  .heart {
+    width: 100px;
+    height: 70px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: url("../img/heart.png") no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+    animation: fave-heart 1s steps(28);
+  }
+  .heart:hover {
+    background-position: -2800px 0;
+    transition: background 1.5s steps(28);
+  }
+  @keyframes fave-heart {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -2800px 0;
+    }
+  }

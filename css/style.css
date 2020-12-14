@@ -878,8 +878,8 @@ input:required {
   z-index: 1;
   border-radius: 10px; }
   .about-video-area img {
-    -webkit-box-shadow: 3px 0 24px rgba(0, 0, 0, 0.15);
-    box-shadow: 3px 0 24px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 3px 0 24px #00000026;
+    box-shadow: 3px 0 24px #00000026;
     width: 100%;
     border-radius: 10px; }
   .about-video-area .video-icon a {

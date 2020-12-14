@@ -759,7 +759,8 @@ input:required {
       color: #ffffff;
       font-style: italic;
       font-size: 20px;
-      text-decoration: underline; }
+      text-decoration: underline;
+      cursor: initial; }
       .single-welcome-slide .welcome-text .hero-mail-contact:hover, .single-welcome-slide .welcome-text .hero-mail-contact:focus {
         color: #f85353; }
 
@@ -1461,7 +1462,6 @@ input:required {
     transform: translate(-50%, -50%);
     background: url("../img/heart.png") no-repeat;
     background-position: 0 0;
-    cursor: pointer;
     animation: fave-heart 1s steps(28);
   }
   .heart:hover {

@@ -1439,3 +1439,21 @@ input:required {
     }
   }
 
+.img-logo{
+  width: 180px;
+  height: 50px;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  .img-logo{
+    width: 150px;
+    height: 40px;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+  .img-logo{
+    width: 120px;
+    height: 30px;
+  }
+}

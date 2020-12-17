@@ -917,8 +917,7 @@ input:required {
   box-shadow: 3px 0 15px -1px rgba(0, 0, 0, 0.15);
   position: relative;
   z-index: 1;
-  margin-top: 50px;
-  cursor: pointer; }
+  margin-top: 50px; }
   .why-choose-us-content .chosse-us-icon {
     -webkit-transition-duration: 800ms;
     -o-transition-duration: 800ms;

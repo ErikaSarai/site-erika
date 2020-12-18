@@ -1,56 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!-- created with sitemap-gen https://sitemap-gen.com/ -->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	<url>
-		<loc>https://www.erikagonzalez.ga/</loc>
-		<lastmod>2020-12-18T20:08:57.7519277+01:00</lastmod>
-	</url>
-	<url>
-		<loc>https://www.erikagonzalez.ga/index.html</loc>
-		<lastmod>2020-12-18T20:08:57.7519277+01:00</lastmod>
-	</url>
-	<url>
-		<loc>https://www.erikagonzalez.ga/img/bg-img/fibromasuterinos.jpg</loc>
-		<lastmod>2020-12-18T20:08:57.7519277+01:00</lastmod>
-	</url>
-	<url>
-		<loc>https://www.erikagonzalez.ga/img/bg-img/william-ache.jpg</loc>
-		<lastmod>2020-12-18T20:08:57.7519277+01:00</lastmod>
-	</url>
-	<url>
-		<loc>https://www.erikagonzalez.ga/img/bg-img/gaticosyperritos.jpg</loc>
-		<lastmod>2020-12-18T20:08:57.7519277+01:00</lastmod>
-	</url>
-	<url>
-		<loc>https://www.erikagonzalez.ga/img/bg-img/maprotel.jpg</loc>
-		<lastmod>2020-12-18T20:08:57.7519277+01:00</lastmod>
-	</url>
-	<url>
-		<loc>https://www.erikagonzalez.ga/img/bg-img/proser.jpg</loc>
-		<lastmod>2020-12-18T20:08:57.7519277+01:00</lastmod>
-	</url>
-	<url>
-		<loc>https://www.erikagonzalez.ga/img/bg-img/manual1.jpg</loc>
-		<lastmod>2020-12-18T20:08:57.7519277+01:00</lastmod>
-	</url>
-	<url>
-		<loc>https://www.erikagonzalez.ga/img/bg-img/manual2.jpg</loc>
-		<lastmod>2020-12-18T20:08:57.7519277+01:00</lastmod>
-	</url>
-	<url>
-		<loc>https://www.erikagonzalez.ga/img/bg-img/page1.jpg</loc>
-		<lastmod>2020-12-18T20:08:57.7519277+01:00</lastmod>
-	</url>
-	<url>
-		<loc>https://www.erikagonzalez.ga/img/bg-img/page2.jpg</loc>
-		<lastmod>2020-12-18T20:08:57.7519277+01:00</lastmod>
-	</url>
-	<url>
-		<loc>https://www.erikagonzalez.ga/img/bg-img/page3.jpg</loc>
-		<lastmod>2020-12-18T20:08:57.7519277+01:00</lastmod>
-	</url>
-	<url>
-		<loc>https://www.erikagonzalez.ga/img/bg-img/page4.jpg</loc>
-		<lastmod>2020-12-18T20:08:57.7519277+01:00</lastmod>
-	</url>
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>http://www.erikagonzalez.ga/</loc>
+    <lastmod>2020-12-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.erikagonzalez.ga/index.html</loc>
+    <lastmod>2020-12-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
+<!--<guid value="5d40eb1f-1f6b-4fbb-a1e5-086b18a9d8a7" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
